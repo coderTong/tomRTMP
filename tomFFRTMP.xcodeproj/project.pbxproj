@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		306713C876BB8E381ADB0164 /* libPods-tomFFRTMP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD613B2F640C03096FEC4888 /* libPods-tomFFRTMP.a */; };
+		A2E9CD7A517356ACD34316CF /* libPods-tomFFRTMPUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F561064FBE86F5D894C4072 /* libPods-tomFFRTMPUITests.a */; };
+		AC0DC3B32365B62E00F54EEC /* TAVRtmpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0DC3B22365B62E00F54EEC /* TAVRtmpManager.m */; };
+		AC0DC3B72365B8D800F54EEC /* TAVMovieDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0DC3B62365B8D800F54EEC /* TAVMovieDecoder.m */; };
 		AC4E2BE2236291C500FECDE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4E2BE1236291C500FECDE6 /* AppDelegate.m */; };
 		AC4E2BE8236291C500FECDE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4E2BE7236291C500FECDE6 /* ViewController.m */; };
 		AC4E2BEB236291C500FECDE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4E2BE9236291C500FECDE6 /* Main.storyboard */; };
@@ -15,6 +19,7 @@
 		AC4E2BF3236291C900FECDE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4E2BF2236291C900FECDE6 /* main.m */; };
 		AC4E2BFD236291CA00FECDE6 /* tomFFRTMPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4E2BFC236291CA00FECDE6 /* tomFFRTMPTests.m */; };
 		AC4E2C08236291CA00FECDE6 /* tomFFRTMPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4E2C07236291CA00FECDE6 /* tomFFRTMPUITests.m */; };
+		CFEBDE5AE23FF7EFF4A7B581 /* libPods-tomFFRTMPTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED22D5D5965DF1AF8FB692E6 /* libPods-tomFFRTMPTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		090561AFB404BB55083B1878 /* Pods-tomFFRTMPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tomFFRTMPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tomFFRTMPUITests/Pods-tomFFRTMPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		15D4FD2FD58162D4C0897FB9 /* Pods-tomFFRTMP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tomFFRTMP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tomFFRTMP/Pods-tomFFRTMP.debug.xcconfig"; sourceTree = "<group>"; };
+		2F561064FBE86F5D894C4072 /* libPods-tomFFRTMPUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tomFFRTMPUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FFD6BDB848270899847A48 /* Pods-tomFFRTMPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tomFFRTMPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tomFFRTMPTests/Pods-tomFFRTMPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73AA6CF510ED0687ED714F89 /* Pods-tomFFRTMPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tomFFRTMPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tomFFRTMPUITests/Pods-tomFFRTMPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		82C934BB1F27EE898F53636D /* Pods-tomFFRTMP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tomFFRTMP.release.xcconfig"; path = "Pods/Target Support Files/Pods-tomFFRTMP/Pods-tomFFRTMP.release.xcconfig"; sourceTree = "<group>"; };
+		AC0DC3B12365B62E00F54EEC /* TAVRtmpManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAVRtmpManager.h; sourceTree = "<group>"; };
+		AC0DC3B22365B62E00F54EEC /* TAVRtmpManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAVRtmpManager.m; sourceTree = "<group>"; };
+		AC0DC3B52365B8D800F54EEC /* TAVMovieDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAVMovieDecoder.h; sourceTree = "<group>"; };
+		AC0DC3B62365B8D800F54EEC /* TAVMovieDecoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAVMovieDecoder.m; sourceTree = "<group>"; };
+		AC0DC3B82365C06100F54EEC /* TAV_Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAV_Constants.h; sourceTree = "<group>"; };
 		AC4E2BDD236291C500FECDE6 /* tomFFRTMP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tomFFRTMP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4E2BE0236291C500FECDE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AC4E2BE1236291C500FECDE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +67,9 @@
 		AC4E2C03236291CA00FECDE6 /* tomFFRTMPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tomFFRTMPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4E2C07236291CA00FECDE6 /* tomFFRTMPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tomFFRTMPUITests.m; sourceTree = "<group>"; };
 		AC4E2C09236291CA00FECDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A369BAE6F07B7A3914C6D2 /* Pods-tomFFRTMPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tomFFRTMPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tomFFRTMPTests/Pods-tomFFRTMPTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED22D5D5965DF1AF8FB692E6 /* libPods-tomFFRTMPTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tomFFRTMPTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD613B2F640C03096FEC4888 /* libPods-tomFFRTMP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tomFFRTMP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306713C876BB8E381ADB0164 /* libPods-tomFFRTMP.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFEBDE5AE23FF7EFF4A7B581 /* libPods-tomFFRTMPTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +93,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E9CD7A517356ACD34316CF /* libPods-tomFFRTMPUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC0DC3B02365B5B600F54EEC /* TAVRTMP */ = {
+			isa = PBXGroup;
+			children = (
+				AC0DC3B12365B62E00F54EEC /* TAVRtmpManager.h */,
+				AC0DC3B22365B62E00F54EEC /* TAVRtmpManager.m */,
+				AC0DC3B52365B8D800F54EEC /* TAVMovieDecoder.h */,
+				AC0DC3B62365B8D800F54EEC /* TAVMovieDecoder.m */,
+				AC0DC3B82365C06100F54EEC /* TAV_Constants.h */,
+			);
+			path = TAVRTMP;
+			sourceTree = "<group>";
+		};
 		AC4E2BD4236291C400FECDE6 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +119,8 @@
 				AC4E2BFB236291CA00FECDE6 /* tomFFRTMPTests */,
 				AC4E2C06236291CA00FECDE6 /* tomFFRTMPUITests */,
 				AC4E2BDE236291C500FECDE6 /* Products */,
+				B7BA9F93808BE50ECCA30367 /* Pods */,
+				F9C3BFFADB408BFD2763070D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +146,7 @@
 				AC4E2BEE236291C900FECDE6 /* LaunchScreen.storyboard */,
 				AC4E2BF1236291C900FECDE6 /* Info.plist */,
 				AC4E2BF2236291C900FECDE6 /* main.m */,
+				AC0DC3B02365B5B600F54EEC /* TAVRTMP */,
 			);
 			path = tomFFRTMP;
 			sourceTree = "<group>";
@@ -132,6 +169,29 @@
 			path = tomFFRTMPUITests;
 			sourceTree = "<group>";
 		};
+		B7BA9F93808BE50ECCA30367 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15D4FD2FD58162D4C0897FB9 /* Pods-tomFFRTMP.debug.xcconfig */,
+				82C934BB1F27EE898F53636D /* Pods-tomFFRTMP.release.xcconfig */,
+				37FFD6BDB848270899847A48 /* Pods-tomFFRTMPTests.debug.xcconfig */,
+				E3A369BAE6F07B7A3914C6D2 /* Pods-tomFFRTMPTests.release.xcconfig */,
+				73AA6CF510ED0687ED714F89 /* Pods-tomFFRTMPUITests.debug.xcconfig */,
+				090561AFB404BB55083B1878 /* Pods-tomFFRTMPUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9C3BFFADB408BFD2763070D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD613B2F640C03096FEC4888 /* libPods-tomFFRTMP.a */,
+				ED22D5D5965DF1AF8FB692E6 /* libPods-tomFFRTMPTests.a */,
+				2F561064FBE86F5D894C4072 /* libPods-tomFFRTMPUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC4E2C0C236291CA00FECDE6 /* Build configuration list for PBXNativeTarget "tomFFRTMP" */;
 			buildPhases = (
+				930327814EDA389D115D6A78 /* [CP] Check Pods Manifest.lock */,
 				AC4E2BD9236291C500FECDE6 /* Sources */,
 				AC4E2BDA236291C500FECDE6 /* Frameworks */,
 				AC4E2BDB236291C500FECDE6 /* Resources */,
@@ -156,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC4E2C0F236291CA00FECDE6 /* Build configuration list for PBXNativeTarget "tomFFRTMPTests" */;
 			buildPhases = (
+				B0F78844BFB3D945C8AFF3ED /* [CP] Check Pods Manifest.lock */,
 				AC4E2BF4236291CA00FECDE6 /* Sources */,
 				AC4E2BF5236291CA00FECDE6 /* Frameworks */,
 				AC4E2BF6236291CA00FECDE6 /* Resources */,
@@ -174,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC4E2C12236291CA00FECDE6 /* Build configuration list for PBXNativeTarget "tomFFRTMPUITests" */;
 			buildPhases = (
+				7CAA04F0A4BA55ADF5B07A6E /* [CP] Check Pods Manifest.lock */,
 				AC4E2BFF236291CA00FECDE6 /* Sources */,
 				AC4E2C00236291CA00FECDE6 /* Frameworks */,
 				AC4E2C01236291CA00FECDE6 /* Resources */,
@@ -257,14 +320,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7CAA04F0A4BA55ADF5B07A6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tomFFRTMPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		930327814EDA389D115D6A78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tomFFRTMP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0F78844BFB3D945C8AFF3ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tomFFRTMPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC4E2BD9236291C500FECDE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC0DC3B32365B62E00F54EEC /* TAVRtmpManager.m in Sources */,
 				AC4E2BE8236291C500FECDE6 /* ViewController.m in Sources */,
 				AC4E2BE2236291C500FECDE6 /* AppDelegate.m in Sources */,
 				AC4E2BF3236291C900FECDE6 /* main.m in Sources */,
+				AC0DC3B72365B8D800F54EEC /* TAVMovieDecoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +553,7 @@
 		};
 		AC4E2C0D236291CA00FECDE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D4FD2FD58162D4C0897FB9 /* Pods-tomFFRTMP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +572,7 @@
 		};
 		AC4E2C0E236291CA00FECDE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82C934BB1F27EE898F53636D /* Pods-tomFFRTMP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +591,7 @@
 		};
 		AC4E2C10236291CA00FECDE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37FFD6BDB848270899847A48 /* Pods-tomFFRTMPTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -487,6 +612,7 @@
 		};
 		AC4E2C11236291CA00FECDE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A369BAE6F07B7A3914C6D2 /* Pods-tomFFRTMPTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +633,7 @@
 		};
 		AC4E2C13236291CA00FECDE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73AA6CF510ED0687ED714F89 /* Pods-tomFFRTMPUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UCS53FT3U9;
@@ -525,6 +652,7 @@
 		};
 		AC4E2C14236291CA00FECDE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 090561AFB404BB55083B1878 /* Pods-tomFFRTMPUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UCS53FT3U9;

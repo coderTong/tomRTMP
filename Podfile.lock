@@ -1,0 +1,36 @@
+PODS:
+  - tav_fdkaac_iOS_static_libs (1.0.0):
+    - tav_fdkaac_iOS_static_libs/tav_fdkaac (= 1.0.0)
+  - tav_fdkaac_iOS_static_libs/tav_fdkaac (1.0.0)
+  - tav_ffmpeg_iOS_static_libs (1.0.0):
+    - tav_ffmpeg_iOS_static_libs/tav_ffmpeg (= 1.0.0)
+  - tav_ffmpeg_iOS_static_libs/tav_ffmpeg (1.0.0)
+  - tav_lame_iOS_static_libs (1.0.0):
+    - tav_lame_iOS_static_libs/tav_mp3lame (= 1.0.0)
+  - tav_lame_iOS_static_libs/tav_mp3lame (1.0.0)
+  - tav_x264_iOS_static_libs (1.0.0):
+    - tav_x264_iOS_static_libs/tav_x264 (= 1.0.0)
+  - tav_x264_iOS_static_libs/tav_x264 (1.0.0)
+
+DEPENDENCIES:
+  - tav_fdkaac_iOS_static_libs
+  - tav_ffmpeg_iOS_static_libs
+  - tav_lame_iOS_static_libs
+  - tav_x264_iOS_static_libs
+
+SPEC REPOS:
+  "git@github.com:coderTong/TAVPodSpecs.git":
+    - tav_fdkaac_iOS_static_libs
+    - tav_ffmpeg_iOS_static_libs
+    - tav_lame_iOS_static_libs
+    - tav_x264_iOS_static_libs
+
+SPEC CHECKSUMS:
+  tav_fdkaac_iOS_static_libs: 0a4422f8286f7c4c76808fad597e325ea413a5f9
+  tav_ffmpeg_iOS_static_libs: 76864d168e514541a6f383b580d73e625848662f
+  tav_lame_iOS_static_libs: 3a71fa00fd647779d04963eb52ba4f43c645db77
+  tav_x264_iOS_static_libs: 24b881f92bfa9baf69096f94f2120818774b0cb6
+
+PODFILE CHECKSUM: 8bab35c1d3c51b47f5db9c08d84d7fbe98090c44
+
+COCOAPODS: 1.5.2
