@@ -7,16 +7,8 @@
 //
 
 #import "TAVMovieDecoder.h"
-#import <Accelerate/Accelerate.h>
-#include "libavformat/avformat.h"
-#include "libswscale/swscale.h"
-#include "libswresample/swresample.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/avutil.h"
-
-
 #import "TAV_Constants.h"
-
+#import "TAVMovieDecoder+StaticValue.h"
 @interface TAVMovieDecoder ()
 {
     AVFormatContext     *_formatCtx;
@@ -52,6 +44,8 @@
 
 @property (nonatomic, assign) NSUInteger artworkStream;
 
+@property (assign, nonatomic) CGFloat fps;
+@property (assign, nonatomic) CGFloat videoTimeBase;
 
 @end
 
@@ -92,7 +86,7 @@ static int interrupt_callback(void *ctx);
     
     if (errCode == TAVMovieErrorNone) {
         
-        
+        TAVMovieError video = [self openVideoStream];
     }
     
     return YES;
@@ -108,6 +102,19 @@ static int interrupt_callback(void *ctx);
     if ([scheme isEqualToString:@"file"])
         return NO;
     return YES;
+}
+
+
+#pragma mark - getter setter
+
+- (NSUInteger)frameWidth
+{
+    return _videoCodecCtx ? _videoCodecCtx->width : 0;
+}
+
+- (NSUInteger)frameHeight
+{
+    return _videoCodecCtx ? _videoCodecCtx->height : 0;
 }
 
 
@@ -181,6 +188,50 @@ open start
 //////////////////////////////////////////////////////////////////////////////
 */
 
+
+- (TAVMovieError)openAudioStream
+{
+    TAVMovieError errCode = TAVMovieErrorStreamNotFound;
+    
+    _audioStream  = -1;
+    _audioStreams = [self collectStreams:_formatCtx codecType:AVMEDIA_TYPE_AUDIO];
+    
+    for (NSNumber *n in _audioStreams) {
+        
+//        errCode = [];
+    }
+    
+    return errCode;
+}
+
+
+- (TAVMovieError)openAudioStream:(NSInteger)audioStream
+{
+    AVCodecContext *codecCtx = _formatCtx->streams[audioStream]->codec;
+    
+    SwrContext *swrContent = NULL;
+    
+    AVCodec *codec = avcodec_find_decoder(codecCtx->codec_id);
+    
+    if (!codec) {
+        
+        return TAVMovieErrorCodecNotFound;
+    }
+    
+    
+    if (avcodec_open2(codecCtx, codec, NULL) < 0) {
+        
+        return TAVMovieErrorOpenCodec;
+    }
+    
+    // TODO: 
+//    if (!audiocode) {
+//        <#statements#>
+//    }
+    
+    return TAVMovieErrorNone;
+}
+
 - (TAVMovieError)openVideoStream
 {
     TAVMovieError errCode = TAVMovieErrorStreamNotFound;
@@ -236,16 +287,16 @@ open start
     }
     
     _videoStream = videoStream;
-    _videoCodecCtx - codecCtx;
+    _videoCodecCtx = codecCtx;
     
     AVStream *st = _formatCtx->streams[_videoStream];
+    [self avStreamFPSTimeBaseWith:st pFPS:&_fps pTimeBase:&_videoTimeBase defaultTimeBase:0.04];
     
-    
-    /**
-     
-     */.....
-    
-    
+    NSLog(@"video codec size: %d:%d fps: %.3f tb: %f",
+    self.frameWidth,
+    self.frameHeight,
+    _fps,
+    _videoTimeBase);
     
     
     return TAVMovieErrorNone;

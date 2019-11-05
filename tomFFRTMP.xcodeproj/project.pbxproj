@@ -19,6 +19,8 @@
 		AC4E2BF3236291C900FECDE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4E2BF2236291C900FECDE6 /* main.m */; };
 		AC4E2BFD236291CA00FECDE6 /* tomFFRTMPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4E2BFC236291CA00FECDE6 /* tomFFRTMPTests.m */; };
 		AC4E2C08236291CA00FECDE6 /* tomFFRTMPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4E2C07236291CA00FECDE6 /* tomFFRTMPUITests.m */; };
+		AC8A1BEA23687967004227E2 /* TAVMovieDecoder+StaticValue.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8A1BE923687967004227E2 /* TAVMovieDecoder+StaticValue.m */; };
+		AC8A1C062369CAB6004227E2 /* TAVAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8A1C052369CAB6004227E2 /* TAVAudioManager.m */; };
 		CFEBDE5AE23FF7EFF4A7B581 /* libPods-tomFFRTMPTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED22D5D5965DF1AF8FB692E6 /* libPods-tomFFRTMPTests.a */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +69,11 @@
 		AC4E2C03236291CA00FECDE6 /* tomFFRTMPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tomFFRTMPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4E2C07236291CA00FECDE6 /* tomFFRTMPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tomFFRTMPUITests.m; sourceTree = "<group>"; };
 		AC4E2C09236291CA00FECDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8A1BE823687967004227E2 /* TAVMovieDecoder+StaticValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TAVMovieDecoder+StaticValue.h"; sourceTree = "<group>"; };
+		AC8A1BE923687967004227E2 /* TAVMovieDecoder+StaticValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TAVMovieDecoder+StaticValue.m"; sourceTree = "<group>"; };
+		AC8A1C032369C862004227E2 /* TAVAudioManagerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAVAudioManagerProtocol.h; sourceTree = "<group>"; };
+		AC8A1C042369CAB6004227E2 /* TAVAudioManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAVAudioManager.h; sourceTree = "<group>"; };
+		AC8A1C052369CAB6004227E2 /* TAVAudioManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAVAudioManager.m; sourceTree = "<group>"; };
 		E3A369BAE6F07B7A3914C6D2 /* Pods-tomFFRTMPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tomFFRTMPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tomFFRTMPTests/Pods-tomFFRTMPTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED22D5D5965DF1AF8FB692E6 /* libPods-tomFFRTMPTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tomFFRTMPTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD613B2F640C03096FEC4888 /* libPods-tomFFRTMP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tomFFRTMP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +114,11 @@
 				AC0DC3B22365B62E00F54EEC /* TAVRtmpManager.m */,
 				AC0DC3B52365B8D800F54EEC /* TAVMovieDecoder.h */,
 				AC0DC3B62365B8D800F54EEC /* TAVMovieDecoder.m */,
+				AC8A1C042369CAB6004227E2 /* TAVAudioManager.h */,
+				AC8A1C052369CAB6004227E2 /* TAVAudioManager.m */,
+				AC8A1C032369C862004227E2 /* TAVAudioManagerProtocol.h */,
+				AC8A1BE823687967004227E2 /* TAVMovieDecoder+StaticValue.h */,
+				AC8A1BE923687967004227E2 /* TAVMovieDecoder+StaticValue.m */,
 				AC0DC3B82365C06100F54EEC /* TAV_Constants.h */,
 			);
 			path = TAVRTMP;
@@ -383,9 +395,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC0DC3B32365B62E00F54EEC /* TAVRtmpManager.m in Sources */,
+				AC8A1BEA23687967004227E2 /* TAVMovieDecoder+StaticValue.m in Sources */,
 				AC4E2BE8236291C500FECDE6 /* ViewController.m in Sources */,
 				AC4E2BE2236291C500FECDE6 /* AppDelegate.m in Sources */,
 				AC4E2BF3236291C900FECDE6 /* main.m in Sources */,
+				AC8A1C062369CAB6004227E2 /* TAVAudioManager.m in Sources */,
 				AC0DC3B72365B8D800F54EEC /* TAVMovieDecoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TAVAudioManager.h"
 
 @interface ViewController ()
 
@@ -19,9 +20,14 @@
     // Do any additional setup after loading the view.
 }
 
+
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     NSLog(@"%s", __func__);
+    
+    TAVAudioManager * mag = [[TAVAudioManager alloc] init];
+    [mag activateAudioSession];
+    
 }
 
 
